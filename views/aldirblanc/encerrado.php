@@ -1,6 +1,7 @@
 <?php
   $app = \MapasCulturais\App::i();
   $aldirBlancUrl = $app->createUrl('aldirblanc','inicio');
+  $auxilioSetorEventosUrl = $app->createUrl('oportunidade','single',[2852]);
 ?>
 <head>
   <style>
@@ -28,15 +29,18 @@
   <section class="lab-main-content">
     <h1>INSCRIÇÕES PARA LEI ALDIR BLANC <strong>ENCERRADAS</strong></h1>
     <p> Para acesso o formulário de inscrição e o resultado <a href="<?=$aldirBlancUrl?>">clique aqui </a></p>
-    <br><br>
+    <br>
     <h2>AUXILIO FINANCEIRO AOS PROFISSIONAIS DO SETOR DE EVENTOS DO CEARÁ</h2>
     <p>
       Ação do Governo do Estado do Ceará que tem por objetivo conceder aos trabalhadores e trabalhadoras do setor de eventos um auxílio financeiro. Faz parte de um pacote de ações para socorrer o setor de eventos no Estado em meio à pandemia da Covid-19.
     </p>
     <p>
-      O auxílio será pago em duas parcelas de R$ 500, mediante cadastro dos profissionais junto à Secretaria da Cultura do Estado. Cerca de 10 mil profissionais, como músicos, humoristas e técnicos de som, deverão ser beneficiados. Ao todo R$ 10 milhões serão investidos pelo Estado para transferência dessa renda. Estão inclusos músicos, humoristas, profissionais de circo, técnicos de som, luz e imagem, montadores de palcos, etc.
+      O auxílio será pago em duas parcelas de R$ 500, mediante cadastro dos profissionais junto à Secretaria da Cultura do Estado, através do Mapa Cultural do Ceará. Cerca de 10 mil profissionais, como músicos, humoristas e técnicos de som, deverão ser beneficiados. Ao todo R$ 10 milhões serão investidos pelo Estado para transferência dessa renda. Estão inclusos músicos, humoristas, profissionais de circo, técnicos de som, luz e imagem, montadores de palcos, etc.
     </p>
-    <p>
+    <p style="text-align:center">
+      <a href="<?=$auxilioSetorEventosUrl?>" style="color:#FFF"> <div class="btn" style="color:#FFF">Solicite seu auxílio</div> </a>
+    </p>
+    <p style="text-align:center">
       MAIS INFORMAÇÕES: <a target="_blank" href="http://auxiliosetoreventos.secult.ce.gov.br/">auxiliosetoreventos.secult.ce.gov.br/</a>
     </p>
     <p>
