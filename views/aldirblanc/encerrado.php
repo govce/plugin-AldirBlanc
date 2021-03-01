@@ -1,7 +1,7 @@
 <?php
   $app = \MapasCulturais\App::i();
   $aldirBlancUrl = $app->createUrl('aldirblanc','inicio');
-  $auxilioSetorEventosUrl = $app->createUrl('oportunidade','single',[2852]);
+  $auxilioSetorEventosUrl = $app->createUrl('opportunity','single', [2852]);
 ?>
 <head>
   <style>
@@ -38,7 +38,8 @@
       O auxílio será pago em duas parcelas de R$ 500, mediante cadastro dos profissionais junto à Secretaria da Cultura do Estado, através do Mapa Cultural do Ceará. Cerca de 10 mil profissionais, como músicos, humoristas e técnicos de som, deverão ser beneficiados. Ao todo R$ 10 milhões serão investidos pelo Estado para transferência dessa renda. Estão inclusos músicos, humoristas, profissionais de circo, técnicos de som, luz e imagem, montadores de palcos, etc.
     </p>
     <p style="text-align:center">
-      <a href="<?=$auxilioSetorEventosUrl?>" style="color:#FFF"> <div class="btn" style="color:#FFF">Solicite seu auxílio</div> </a>
+      <a href="<?=$auxilioSetorEventosUrl?>" style="color:#FFF"> 
+      <div class="btn" style="display: block; color: #FFF; width: 50%; margin: auto;">Solicite seu auxílio</div> </a>
     </p>
     <p style="text-align:center">
       MAIS INFORMAÇÕES: <a target="_blank" href="http://auxiliosetoreventos.secult.ce.gov.br/">auxiliosetoreventos.secult.ce.gov.br/</a>
