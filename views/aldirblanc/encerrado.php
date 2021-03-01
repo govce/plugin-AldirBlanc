@@ -1,3 +1,7 @@
+<?php
+  $app = \MapasCulturais\App::i();
+  $aldirBlancUrl = $app->createUrl('aldirblanc','inicio');
+?>
 <head>
   <style>
     section {
@@ -22,7 +26,9 @@
 <body>
 <section id="main-section" class="cleafix">
   <section class="lab-main-content">
-    <h1>INSCRIÇÕES PARA A ALDIR BLANC <strong>ENCERRADAS</strong></h1>
+    <h1>INSCRIÇÕES PARA LEI ALDIR BLANC <strong>ENCERRADAS</strong></h1>
+    <p> Para acesso o formulário de inscrição e o resultado <a href="<?=$aldirBlancUrl?>">clique aqui </p>
+    <br><br><br><br>  
     <h4>AUXILIO FINANCEIRO AOS PROFISSIONAIS DO SETOR DE EVENTOS DO CEARÁ</h4>
     <p>
       Ação do Governo do Estado do Ceará que tem por objetivo conceder aos trabalhadores e trabalhadoras do setor de eventos um auxílio financeiro. Faz parte de um pacote de ações para socorrer o setor de eventos no Estado em meio à pandemia da Covid-19.
